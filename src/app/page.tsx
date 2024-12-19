@@ -6,7 +6,7 @@ import FooterSection from "./components/FooterSection";
 export default function Home() {
   return (
   <div> 
-    {/* <Navbar/> */}
+    <Navbar/>
     <HeroSection></HeroSection>
     {/* <FooterSection></FooterSection> */}
   </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import logo from "@/app/assests/logo.png"
 import Button from './Button'
-import arrow from "@/app/assests/Vector.png"
+
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { MenuIcon } from 'lucide-react'
 import Link from 'next/link'
