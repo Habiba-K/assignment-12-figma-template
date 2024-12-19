@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import FooterSection from "./components/FooterSection";
+import Navbar from "./component/Navbar";
+import HeroSection from "./component/HeroSection";
+import FooterSection from "./component/FooterSection";
 
 export default function Home() {
   return (
