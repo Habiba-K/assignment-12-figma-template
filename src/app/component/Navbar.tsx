@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from "@/app/assests/logo.png"
 import Button from './Button'
 
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
@@ -11,7 +10,7 @@ const Navbar = () => {
     <div className=' w-full h-[92px] bg-[#043873] '>
       <div className='max-w-[1920px] py-4 lg:px-[100px] flex justify-between px-10 lg:justify-around items-center'>
         <Image
-            src={logo}
+            src="@app/assests/logo.png"
             alt='logo'
             width={191}
             height={34} 
