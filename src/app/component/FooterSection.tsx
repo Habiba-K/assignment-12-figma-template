@@ -67,6 +67,7 @@ const FooterSection = () => {
             >
             </Button>
           </div>
+        
         </div>
       </div>
       <div className="pt-32 ">
