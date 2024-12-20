@@ -1,23 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import logo from "@/app/assests/logo.png";
-import facebook from "@/app/assests/_x30_1._Facebook.png";
-import twiter from "@/app/assests/Group.png";
-import linkedin from "@/app/assests/Linkedin.png";
-import language from "@/app/assests/Icon.png";
 import Button from "./Button";
 const FooterSection = () => {
   return (
     <div className="max-w-[1920px] lg:h-[474px] bg-[#043873] ">
       <div className="flex justify-start lg:justify-center ">
         <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-20 px-5 pb-[20px] mt-20">
-          <div className="text-white w-[205.25px] h-[169px] ">
+          <div className="text-white w-[210px] h-[169px] ">
             <Image
-              src={logo}
+              src="/images/Logo.png"
               alt="logo"
               width={191}
               height={34}
-              className="p-2"
+              className="pb-2"
             />
             <p>
               whitepace was created for the new ways we live and work. We make a
@@ -77,8 +72,8 @@ const FooterSection = () => {
             <li >
               <div className="flex flex-row">
               <Image
-                  src={language}
-                  alt="logo"
+                  src="/images/Icon.png"
+                  alt="lang"
                   width={19}
                   height={19}
                   className="inline-block "
@@ -95,13 +90,13 @@ const FooterSection = () => {
           </ul>
           <div className="flex justify-end">
             <div className="pr-8">
-              <Image src={facebook} alt="logo" width={9} height={17} />
+              <Image src="/images/_x30_1._Facebook.png" alt="fb" width={9} height={17} />
             </div>
             <div className="pr-8">
-              <Image src={twiter} alt="logo" width={9} height={17} />
+              <Image src="/images/Group.png" alt="twiter" width={9} height={17} />
             </div>
             <div className="pr-8">
-              <Image src={linkedin} alt="logo" width={9} height={17} />
+              <Image src="/images/Linkedin.png" alt="linkedin" width={9} height={17} />
             </div>
           </div>
         </div>
