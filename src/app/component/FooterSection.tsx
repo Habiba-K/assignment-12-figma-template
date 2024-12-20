@@ -3,10 +3,10 @@ import Image from "next/image";
 import Button from "./Button";
 const FooterSection = () => {
   return (
-    <div className="max-w-[1920px] lg:h-[474px] bg-[#043873] ">
+    <div className="w-full max-w-[1920px] lg:h-[474px] bg-[#043873] ">
       <div className="flex justify-start lg:justify-center ">
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-20 px-5 pb-[20px] mt-20">
-          <div className="text-white w-[210px] h-[169px] ">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-5 lg:gap-0 px-5 pb-[20px] mt-20">
+          <div className="text-white w-[205.25px] h-[169px] mr-10">
             <Image
               src="/images/Logo.png"
               alt="logo"
@@ -65,7 +65,7 @@ const FooterSection = () => {
         
         </div>
       </div>
-      <div className="pt-32 ">
+      <div className="pt-28 ">
         <hr className="h-2  bg-[#2E4E73] opacity-50 flex  " />
         <div className="lg:grid lg:grid-cols-2 p-5 hidden">
           <ul className="text-[#FFFFFF] bg-[#043873] grid  grid-cols-5 ">
@@ -95,7 +95,7 @@ const FooterSection = () => {
             <div className="pr-8">
               <Image src="/images/Group.png" alt="twiter" width={9} height={17} />
             </div>
-            <div className="pr-8">
+            <div className="">
               <Image src="/images/Linkedin.png" alt="linkedin" width={9} height={17} />
             </div>
           </div>
