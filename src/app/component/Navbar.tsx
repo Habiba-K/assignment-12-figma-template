@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className=' w-full h-[92px] bg-[#043873] '>
       <div className='max-w-[1920px] py-4 lg:px-[100px] flex justify-between px-10 lg:justify-around items-center'>
         <Image
-            src="@/app/assests/Logo.png"
+            src="/images/Logo.png"
             alt='logo'
             width={191}
             height={34} 
